@@ -40,21 +40,16 @@ class HomeBottom extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [Colors.blue, Colors.indigo],
-                    // تدرج الألوان من الأزرق إلى الكحلي
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                   ),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(width: 1, color: Colors.yellow),
-                  // لون الحواف الخفيفة
                   boxShadow: [
                     BoxShadow(
                       color: Colors.yellow.withOpacity(0.3),
-                      // لون الظل الأصفر بشفافية 0.3
                       spreadRadius: 2,
-                      // قوة انتشار الظل
                       blurRadius: 5,
-                      // قوة التموج في الظل
                       offset:
                           Offset(0, 2), // إزاحة الموضع العمودية والأفقية للظل
                     ),
@@ -70,11 +65,8 @@ class HomeBottom extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.all(20),
                     elevation: 0,
-                    // تعيين الظل للزر
-                    primary: Colors.blue,
-                    // اللون الأزرق للزر
+                    primary: Colors.black45,
                     onPrimary: Colors.indigo,
-                    // اللون الكحلي للزر عند التحويل
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),
@@ -118,7 +110,7 @@ class HomeBottom extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.all(20),
                     elevation: 0,
-                    primary: Colors.blue,
+                    primary: Colors.black45,
                     onPrimary: Colors.indigo,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
@@ -161,7 +153,7 @@ class HomeBottom extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.all(20),
                     elevation: 0,
-                    primary: Colors.blue,
+                    primary: Colors.black45,
                     onPrimary: Colors.indigo,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
@@ -205,7 +197,7 @@ class HomeBottom extends StatelessWidget {
                     padding: EdgeInsets.all(20),
                     elevation: 0,
 
-                    primary: Colors.blue,
+                    primary: Colors.black45,
                     onPrimary: Colors.indigo,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
@@ -248,7 +240,7 @@ class HomeBottom extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.all(20),
                     elevation: 0,
-                    primary: Colors.blue,
+                    primary: Colors.black45,
                     onPrimary: Colors.indigo,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
