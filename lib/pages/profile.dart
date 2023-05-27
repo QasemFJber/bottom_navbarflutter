@@ -10,11 +10,5 @@ class Profile extends StatelessWidget {
     );
   }
 }
-/*
-home
-message
-    add
-discovery
-    profile
-*/
+
 
