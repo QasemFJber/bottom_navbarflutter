@@ -13,7 +13,6 @@ class _BottomNavBarState extends State<BottomNavBarCurved> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        // وضع الصفحة الحالية هنا
         child: _getPage(currentPage),
       ),
       bottomNavigationBar: CurvedNavigationBar(
@@ -40,27 +39,22 @@ class _BottomNavBarState extends State<BottomNavBarCurved> {
     switch (page) {
       case 0:
         return Container(
-          // تعبئة الصفحة الأولى
           color: Colors.red,
         );
       case 1:
         return Container(
-          // تعبئة الصفحة الثانية
           color: Colors.blue,
         );
       case 2:
         return Container(
-          // تعبئة الصفحة الثالثة
           color: Colors.green,
         );
       case 3:
         return Container(
-          // تعبئة الصفحة الرابعة
           color: Colors.orange,
         );
       case 4:
         return Container(
-          // تعبئة الصفحة الخامسة
           color: Colors.purple,
         );
       default:
