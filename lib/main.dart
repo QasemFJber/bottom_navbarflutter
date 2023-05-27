@@ -93,23 +93,18 @@ class HomeBottom extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [Colors.blue, Colors.indigo],
-                    // تدرج الألوان من الأزرق إلى الكحلي
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                   ),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(width: 1, color: Colors.yellow),
-                  // لون الحواف الخفيفة
                   boxShadow: [
                     BoxShadow(
                       color: Colors.yellow.withOpacity(0.3),
-                      // لون الظل الأصفر بشفافية 0.3
                       spreadRadius: 2,
-                      // قوة انتشار الظل
                       blurRadius: 5,
-                      // قوة التموج في الظل
                       offset:
-                          Offset(0, 2), // إزاحة الموضع العمودية والأفقية للظل
+                          Offset(0, 2),
                     ),
                   ],
                 ),
@@ -123,11 +118,8 @@ class HomeBottom extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.all(20),
                     elevation: 0,
-                    // تعيين الظل للزر
                     primary: Colors.blue,
-                    // اللون الأزرق للزر
                     onPrimary: Colors.indigo,
-                    // اللون الكحلي للزر عند التحويل
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),
@@ -146,23 +138,18 @@ class HomeBottom extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [Colors.blue, Colors.indigo],
-                    // تدرج الألوان من الأزرق إلى الكحلي
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                   ),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(width: 1, color: Colors.yellow),
-                  // لون الحواف الخفيفة
                   boxShadow: [
                     BoxShadow(
                       color: Colors.yellow.withOpacity(0.3),
-                      // لون الظل الأصفر بشفافية 0.3
                       spreadRadius: 2,
-                      // قوة انتشار الظل
                       blurRadius: 5,
-                      // قوة التموج في الظل
                       offset:
-                          Offset(0, 2), // إزاحة الموضع العمودية والأفقية للظل
+                          Offset(0, 2),
                     ),
                   ],
                 ),
@@ -174,11 +161,8 @@ class HomeBottom extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.all(20),
                     elevation: 0,
-                    // تعيين الظل للزر
                     primary: Colors.blue,
-                    // اللون الأزرق للزر
                     onPrimary: Colors.indigo,
-                    // اللون الكحلي للزر عند التحويل
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),
@@ -197,23 +181,18 @@ class HomeBottom extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [Colors.blue, Colors.indigo],
-                    // تدرج الألوان من الأزرق إلى الكحلي
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                   ),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(width: 1, color: Colors.yellow),
-                  // لون الحواف الخفيفة
                   boxShadow: [
                     BoxShadow(
                       color: Colors.yellow.withOpacity(0.3),
-                      // لون الظل الأصفر بشفافية 0.3
                       spreadRadius: 2,
-                      // قوة انتشار الظل
                       blurRadius: 5,
-                      // قوة التموج في الظل
                       offset:
-                          Offset(0, 2), // إزاحة الموضع العمودية والأفقية للظل
+                          Offset(0, 2),
                     ),
                   ],
                 ),
@@ -225,11 +204,9 @@ class HomeBottom extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.all(20),
                     elevation: 0,
-                    // تعيين الظل للزر
+
                     primary: Colors.blue,
-                    // اللون الأزرق للزر
                     onPrimary: Colors.indigo,
-                    // اللون الكحلي للزر عند التحويل
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),
@@ -248,23 +225,18 @@ class HomeBottom extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [Colors.blue, Colors.indigo],
-                    // تدرج الألوان من الأزرق إلى الكحلي
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                   ),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(width: 1, color: Colors.yellow),
-                  // لون الحواف الخفيفة
                   boxShadow: [
                     BoxShadow(
                       color: Colors.yellow.withOpacity(0.3),
-                      // لون الظل الأصفر بشفافية 0.3
                       spreadRadius: 2,
-                      // قوة انتشار الظل
                       blurRadius: 5,
-                      // قوة التموج في الظل
                       offset:
-                          Offset(0, 2), // إزاحة الموضع العمودية والأفقية للظل
+                          Offset(0, 2),
                     ),
                   ],
                 ),
@@ -276,11 +248,8 @@ class HomeBottom extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.all(20),
                     elevation: 0,
-                    // تعيين الظل للزر
                     primary: Colors.blue,
-                    // اللون الأزرق للزر
                     onPrimary: Colors.indigo,
-                    // ال
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),
