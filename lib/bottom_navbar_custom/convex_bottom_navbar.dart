@@ -13,7 +13,6 @@ class _BottomNavBarState extends State<BottomNavBarConvex> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        // وضع الصفحة الحالية هنا
         child: _getPage(currentPage),
       ),
       bottomNavigationBar: ConvexAppBar(
@@ -40,27 +39,22 @@ class _BottomNavBarState extends State<BottomNavBarConvex> {
     switch (page) {
       case 0:
         return Container(
-          // تعبئة الصفحة الأولى
           color: Colors.yellowAccent.shade100,
         );
       case 1:
         return Container(
-          // تعبئة الصفحة الثانية
           color: Colors.blue.shade200,
         );
       case 2:
         return Container(
-          // تعبئة الصفحة الثالثة
           color: Colors.green.shade200,
         );
       case 3:
         return Container(
-          // تعبئة الصفحة الرابعة
           color: Colors.orange.shade200,
         );
       case 4:
         return Container(
-          // تعبئة الصفحة الخامسة
           color: Colors.pinkAccent.shade100,
         );
       default:
